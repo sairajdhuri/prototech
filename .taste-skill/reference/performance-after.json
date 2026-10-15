@@ -1,0 +1,58 @@
+[
+  {
+    "width": 1440,
+    "phase": "pcb",
+    "duration": 2360,
+    "medianFrameMs": 13.399999999999636,
+    "p95FrameMs": 26.700000000000728,
+    "framesOver25ms": 23,
+    "draws": 10656,
+    "longTasks": [],
+    "ScriptDuration": 1.3674500000000003,
+    "LayoutDuration": 0.01695000000000002,
+    "LayoutCount": 16,
+    "RecalcStyleDuration": 0.17542999999999997
+  },
+  {
+    "width": 1440,
+    "phase": "lower",
+    "duration": 2122.7999999998137,
+    "medianFrameMs": 13.300000000001091,
+    "p95FrameMs": 13.599999999998545,
+    "framesOver25ms": 4,
+    "draws": 0,
+    "longTasks": [],
+    "ScriptDuration": 0.17003999999999975,
+    "LayoutDuration": 0.040988000000000024,
+    "LayoutCount": 26,
+    "RecalcStyleDuration": 0.19225099999999995
+  },
+  {
+    "width": 390,
+    "phase": "pcb",
+    "duration": 2220.800000000745,
+    "medianFrameMs": 13.300000000000182,
+    "p95FrameMs": 26.700000000000728,
+    "framesOver25ms": 13,
+    "draws": 10656,
+    "longTasks": [],
+    "ScriptDuration": 1.244755,
+    "LayoutDuration": 0.01153000000000004,
+    "LayoutCount": 12,
+    "RecalcStyleDuration": 0.14837899999999998
+  },
+  {
+    "width": 390,
+    "phase": "lower",
+    "duration": 2058.9000000003725,
+    "medianFrameMs": 13.300000000001091,
+    "p95FrameMs": 13.5,
+    "framesOver25ms": 2,
+    "draws": 0,
+    "longTasks": [],
+    "ScriptDuration": 0.17145500000000036,
+    "LayoutDuration": 0.06338299999999997,
+    "LayoutCount": 52,
+    "RecalcStyleDuration": 0.198874
+  }
+]

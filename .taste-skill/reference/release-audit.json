@@ -1,0 +1,266 @@
+{
+  "pages": [
+    {
+      "route": "/",
+      "reducedMotion": "no-preference",
+      "status": 200,
+      "duplicateIds": [],
+      "missingAlts": [],
+      "brokenImages": [],
+      "links": 48
+    },
+    {
+      "route": "/about",
+      "reducedMotion": "no-preference",
+      "status": 200,
+      "duplicateIds": [],
+      "missingAlts": [],
+      "brokenImages": [],
+      "links": 35
+    },
+    {
+      "route": "/capabilities",
+      "reducedMotion": "no-preference",
+      "status": 200,
+      "duplicateIds": [],
+      "missingAlts": [],
+      "brokenImages": [],
+      "links": 39
+    },
+    {
+      "route": "/machinery",
+      "reducedMotion": "no-preference",
+      "status": 200,
+      "duplicateIds": [],
+      "missingAlts": [],
+      "brokenImages": [],
+      "links": 40
+    },
+    {
+      "route": "/products",
+      "reducedMotion": "no-preference",
+      "status": 200,
+      "duplicateIds": [],
+      "missingAlts": [],
+      "brokenImages": [],
+      "links": 37
+    },
+    {
+      "route": "/customers",
+      "reducedMotion": "no-preference",
+      "status": 200,
+      "duplicateIds": [],
+      "missingAlts": [],
+      "brokenImages": [],
+      "links": 35
+    },
+    {
+      "route": "/contact",
+      "reducedMotion": "no-preference",
+      "status": 200,
+      "duplicateIds": [],
+      "missingAlts": [],
+      "brokenImages": [],
+      "links": 39
+    },
+    {
+      "route": "/quote",
+      "reducedMotion": "no-preference",
+      "status": 200,
+      "duplicateIds": [],
+      "missingAlts": [],
+      "brokenImages": [],
+      "links": 36
+    },
+    {
+      "route": "/privacy",
+      "reducedMotion": "no-preference",
+      "status": 200,
+      "duplicateIds": [],
+      "missingAlts": [],
+      "brokenImages": [],
+      "links": 34
+    },
+    {
+      "route": "/terms",
+      "reducedMotion": "no-preference",
+      "status": 200,
+      "duplicateIds": [],
+      "missingAlts": [],
+      "brokenImages": [],
+      "links": 33
+    },
+    {
+      "route": "/credits",
+      "reducedMotion": "no-preference",
+      "status": 200,
+      "duplicateIds": [],
+      "missingAlts": [],
+      "brokenImages": [],
+      "links": 37
+    },
+    {
+      "route": "/",
+      "reducedMotion": "reduce",
+      "status": 200,
+      "duplicateIds": [],
+      "missingAlts": [],
+      "brokenImages": [],
+      "links": 48
+    },
+    {
+      "route": "/capabilities",
+      "reducedMotion": "reduce",
+      "status": 200,
+      "duplicateIds": [],
+      "missingAlts": [],
+      "brokenImages": [],
+      "links": 39
+    }
+  ],
+  "errors": [],
+  "warnings": [
+    {
+      "route": "/",
+      "reducedMotion": "no-preference",
+      "type": "warning",
+      "message": "THREE.WebGLProgram: Program Info Log: (210,81-129): warning X4122: sum of 0.996094 and -2.98545e-017 cannot be represented accurately in double precision\n(209,37-61): warning X4122: sum of 1 and -1.49272e-017 cannot be represented accurately in double precision\n(210,82-106): warning X4122: sum of 1 and -1.49272e-017 cannot be represented accurately in double precision\n(209,37-61): warning X4122: sum of 1 and -1.66644e-018 cannot be represented accurately in double precision\n(210,82-106): warning X4122: sum of 1 and -1.66644e-018 cannot be represented accurately in double precision"
+    }
+  ],
+  "links": [
+    {
+      "url": "http://127.0.0.1:3105/#main",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:3105/",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:3105/about",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:3105/capabilities",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:3105/machinery",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:3105/products",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:3105/customers",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:3105/contact",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:3105/quote",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:3105/#inside-the-board",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:3105/quote?pcbType=double-sided&layers=2",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:3105/privacy",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:3105/terms",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:3105/credits",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:3105/about#main",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:3105/capabilities#main",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:3105/machinery#main",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:3105/machinery#drilling",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:3105/machinery#fabrication",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:3105/machinery#finishing",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:3105/machinery#testing",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:3105/products#main",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:3105/customers#main",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:3105/contact#main",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:3105/quote#main",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:3105/privacy#main",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:3105/terms#main",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:3105/credits#main",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:3105/fonts/OFL-Manrope.txt",
+      "status": 200
+    }
+  ],
+  "api": [
+    {
+      "name": "cross-origin",
+      "status": 403
+    },
+    {
+      "name": "unsupported content",
+      "status": 415
+    },
+    {
+      "name": "invalid enquiry",
+      "status": 422
+    },
+    {
+      "name": "unconfigured delivery",
+      "status": 503
+    }
+  ]
+}

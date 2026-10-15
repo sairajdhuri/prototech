@@ -1,0 +1,32 @@
+[
+  {
+    "type": "board",
+    "index": 1,
+    "delayMs": 53
+  },
+  {
+    "type": "board",
+    "index": 2,
+    "delayMs": 28.5
+  },
+  {
+    "type": "board",
+    "index": 0,
+    "delayMs": 60.200000000186265
+  },
+  {
+    "type": "machine",
+    "index": 1,
+    "delayMs": 54.10000000055879
+  },
+  {
+    "type": "machine",
+    "index": 2,
+    "delayMs": 14.899999999441206
+  },
+  {
+    "type": "machine",
+    "index": 0,
+    "delayMs": 16.90000000037253
+  }
+]

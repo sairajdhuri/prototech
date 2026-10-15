@@ -1,0 +1,11 @@
+node_modules/
+.next/
+.env*
+!.env.example
+*.tsbuildinfo
+test-results/
+playwright-report/
+.research/
+.taste-skill/inspect/
+.taste-skill/browser-profile/
+.npm-logs/

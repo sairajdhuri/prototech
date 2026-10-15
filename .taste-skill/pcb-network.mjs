@@ -1,0 +1,3 @@
+import {chromium} from 'playwright';
+const b=await chromium.launch({channel:'chrome',headless:true});
+try {for(const origin of ['http://127.0.0.1:3000','http://localhost:3000']){const p=await b.newPage();p.on('pageerror',e=>console.log(origin,'ERROR',e.message));p.on('console',m=>{if(m.type()==='error'||m.type()==='warning')console.log(origin,m.type(),m.text().slice(0,500));});p.on('requestfailed',r=>console.log(origin,'FAILED',r.url().slice(0,200),r.failure()));await p.goto(origin,{waitUntil:'networkidle'});console.log(origin,'CANVASES',await p.locator('canvas').count(),'READY',await p.locator('.webgl-ready').count());await p.close();}}finally{await b.close();}

@@ -1,0 +1,22 @@
+[
+  {
+    "width": 320,
+    "posterURL": "/_next/static/media/pcb-stack-current.f3a793ed.webp",
+    "transitionDifference": 0.05408333333333333
+  },
+  {
+    "width": 600,
+    "posterURL": "/_next/static/media/pcb-stack-current.f3a793ed.webp",
+    "transitionDifference": 0.03609444444444444
+  },
+  {
+    "width": 900,
+    "posterURL": "/_next/static/media/pcb-stack-current.f3a793ed.webp",
+    "transitionDifference": 0.025840455840455842
+  },
+  {
+    "width": 1440,
+    "posterURL": "/_next/static/media/pcb-stack-current.f3a793ed.webp",
+    "transitionDifference": 0.08671103930315058
+  }
+]

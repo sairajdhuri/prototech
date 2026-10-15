@@ -1,0 +1,38 @@
+{"version":8,"type":"context-options","origin":"testRunner","browserName":"","playwrightVersion":"1.62.1","options":{},"platform":"win32","wallTime":1792008806754,"monotonicTime":15977.748,"sdkLanguage":"javascript","testTimeout":45000}
+{"type":"before","callId":"hook@1","stepId":"hook@1","startTime":15979.998,"class":"Test","method":"hook","title":"Before Hooks","params":{},"stack":[]}
+{"type":"before","callId":"fixture@27","stepId":"fixture@27","parentId":"hook@1","startTime":15995.685,"class":"Test","method":"fixture","title":"Fixture \"context\"","params":{},"stack":[]}
+{"type":"before","callId":"pw:api@28","stepId":"pw:api@28","parentId":"fixture@27","startTime":15996.545,"class":"Test","method":"pw:api","title":"Create context","params":{"selectorEngines":"[]","testIdAttributeName":"data-testid","acceptDownloads":"accept","bypassCSP":"false","colorScheme":"light","hasTouch":"false","ignoreHTTPSErrors":"false","isMobile":"false","javaScriptEnabled":"true","locale":"en-US","offline":"false","viewport":"Object","baseURL":"http://localhost:3000","serviceWorkers":"allow","noDefaultViewport":"false","extraHTTPHeaders":"undefined","storageState":"undefined","reducedMotion":"undefined","forcedColors":"undefined","contrast":"undefined","clientCertificates":"undefined"},"stack":[]}
+{"type":"after","callId":"pw:api@28","endTime":16005.068,"annotations":[]}
+{"type":"after","callId":"fixture@27","endTime":16008.517,"annotations":[]}
+{"type":"before","callId":"fixture@29","stepId":"fixture@29","parentId":"hook@1","startTime":16009.2,"class":"Test","method":"fixture","title":"Fixture \"page\"","params":{},"stack":[]}
+{"type":"before","callId":"pw:api@30","stepId":"pw:api@30","parentId":"fixture@29","startTime":16010.845,"class":"Test","method":"pw:api","title":"Create page","params":{},"stack":[]}
+{"type":"after","callId":"pw:api@30","endTime":16205.069,"annotations":[]}
+{"type":"after","callId":"fixture@29","endTime":16205.163,"annotations":[]}
+{"type":"after","callId":"hook@1","endTime":16205.243,"annotations":[]}
+{"type":"before","callId":"pw:api@31","stepId":"pw:api@31","startTime":16207.536,"class":"Test","method":"pw:api","title":"Set viewport size","params":{"viewportSize":"Object"},"stack":[{"file":"C:\\my stuff\\Projects\\prototech\\tests\\browser\\site.spec.ts","line":75,"column":14}]}
+{"type":"after","callId":"pw:api@31","endTime":16246.63,"annotations":[]}
+{"type":"before","callId":"pw:api@32","stepId":"pw:api@32","startTime":16248.377,"class":"Test","method":"pw:api","title":"Navigate to \"/\"","params":{"url":"/","waitUntil":"load"},"stack":[{"file":"C:\\my stuff\\Projects\\prototech\\tests\\browser\\site.spec.ts","line":75,"column":73}]}
+{"type":"after","callId":"pw:api@32","endTime":24888.22,"annotations":[]}
+{"type":"before","callId":"expect@33","stepId":"expect@33","startTime":24890.368,"class":"Test","method":"expect","title":"Expect \"toBeVisible\"","params":{"expected":"Object"},"stack":[{"file":"C:\\my stuff\\Projects\\prototech\\tests\\browser\\site.spec.ts","line":76,"column":46}]}
+{"type":"after","callId":"expect@33","endTime":54919.638,"annotations":[],"error":{"name":"","message":"Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: locator('.webgl-ready')\nExpected: visible\nTimeout: 30000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" with timeout 30000ms\u001b[22m\n\u001b[2m  - waiting for locator('.webgl-ready')\u001b[22m\n","stack":"Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: locator('.webgl-ready')\nExpected: visible\nTimeout: 30000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" with timeout 30000ms\u001b[22m\n\u001b[2m  - waiting for locator('.webgl-ready')\u001b[22m\n\n    at C:\\my stuff\\Projects\\prototech\\tests\\browser\\site.spec.ts:76:46"}}
+{"type":"error","message":"Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: locator('.webgl-ready')\nExpected: visible\nTimeout: 30000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" with timeout 30000ms\u001b[22m\n\u001b[2m  - waiting for locator('.webgl-ready')\u001b[22m\n","stack":[{"file":"C:\\my stuff\\Projects\\prototech\\tests\\browser\\site.spec.ts","line":76,"column":46}]}
+{"type":"before","callId":"hook@34","stepId":"hook@34","startTime":54920.801,"class":"Test","method":"hook","title":"After Hooks","params":{},"stack":[]}
+{"type":"before","callId":"fixture@35","stepId":"fixture@35","parentId":"hook@34","startTime":54921.334,"class":"Test","method":"fixture","title":"Fixture \"page\"","params":{},"stack":[]}
+{"type":"after","callId":"fixture@35","endTime":54921.458,"annotations":[]}
+{"type":"before","callId":"fixture@36","stepId":"fixture@36","parentId":"hook@34","startTime":54921.798,"class":"Test","method":"fixture","title":"Fixture \"context\"","params":{},"stack":[]}
+{"type":"before","callId":"pw:api@37","stepId":"pw:api@37","parentId":"fixture@36","startTime":55014.379,"class":"Test","method":"pw:api","title":"Close context","params":{"reason":"Test ended."},"stack":[]}
+{"type":"after","callId":"pw:api@37","endTime":55035.84,"annotations":[]}
+{"type":"after","callId":"fixture@36","endTime":55035.921,"annotations":[]}
+{"type":"before","callId":"attach@13f032d2952d27fec026805f2bd8803c","stepId":"attach@13f032d2952d27fec026805f2bd8803c","startTime":55046.1,"class":"Test","method":"test.attach","title":"Attach \"error-context\"","params":{},"stack":[]}
+{"type":"after","callId":"attach@13f032d2952d27fec026805f2bd8803c","endTime":55046.119,"attachments":[{"name":"error-context","contentType":"text/markdown","sha1":"922db9023a714bd93572a6c5aa0c743ce6cb57b1"}]}
+{"type":"before","callId":"fixture@46","stepId":"fixture@46","parentId":"hook@34","startTime":55048.58,"class":"Test","method":"fixture","title":"Fixture \"baseURL\"","params":{},"stack":[{"file":"project#","line":1,"column":1}],"group":"configuration"}
+{"type":"after","callId":"fixture@46","endTime":55048.668,"annotations":[]}
+{"type":"after","callId":"hook@34","endTime":55062.913,"annotations":[]}
+{"type":"before","callId":"hook@68","stepId":"hook@68","startTime":55063.594,"class":"Test","method":"hook","title":"Worker Cleanup","params":{},"stack":[]}
+{"type":"before","callId":"fixture@73","stepId":"fixture@73","parentId":"hook@68","startTime":55068.46,"class":"Test","method":"fixture","title":"Fixture \"browser\"","params":{},"stack":[]}
+{"type":"after","callId":"fixture@73","endTime":55301.622,"annotations":[]}
+{"type":"before","callId":"fixture@81","stepId":"fixture@81","parentId":"hook@68","startTime":55303.298,"class":"Test","method":"fixture","title":"Fixture \"launchOptions\"","params":{},"stack":[{"file":"project#","line":1,"column":1}],"group":"configuration"}
+{"type":"after","callId":"fixture@81","endTime":55303.322,"annotations":[]}
+{"type":"before","callId":"fixture@82","stepId":"fixture@82","parentId":"hook@68","startTime":55303.502,"class":"Test","method":"fixture","title":"Fixture \"headless\"","params":{},"stack":[{"file":"project#","line":1,"column":1}],"group":"configuration"}
+{"type":"after","callId":"fixture@82","endTime":55303.523,"annotations":[]}
+{"type":"after","callId":"hook@68","endTime":55303.783,"annotations":[]}
