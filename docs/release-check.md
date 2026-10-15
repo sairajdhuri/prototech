@@ -16,10 +16,11 @@ Preview deployment is ready. Public launch needs production email configuration 
 ## Changes during this check
 
 - Added Next.js 16's documented `data-scroll-behavior="smooth"` opt-in so route transitions can scroll instantly while in-page links retain smooth scrolling.
+- Bounded the Node engine to `>=22.18.0 <23`, preserving the minimum while preventing Vercel from following the open-ended range into a future major runtime/npm combination.
 - Corrected the local board-selection regression to exclude Next.js link prefetch requests. The production trace confirmed both unexpected requests were prefetches, not selection navigations.
 - Made the first-load poster test block a PCB texture as well as the development scene chunk, so it also exercises fallback behavior with production chunk names.
 
-The final production build and complete browser suite passed after these changes. Earlier lag measurements and visual review are recorded in `../.taste-skill/reference/performance-review.md`.
+The final production build and complete browser suite passed after the app changes. The bounded Node engine also passed offline lockfile resolution, lint, and production build. The reported blank `Invalid Version:` error did not reproduce locally, so the runtime range removes an instability but cannot be confirmed as its sole cause. Earlier lag measurements and visual review are recorded in `../.taste-skill/reference/performance-review.md`.
 
 ## Before public launch
 
