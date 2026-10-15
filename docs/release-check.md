@@ -5,7 +5,7 @@ Preview deployment is ready. Public launch needs production email configuration 
 ## Passed
 
 - ESLint, standalone TypeScript check, and optimized Next.js production build.
-- All 12 unit/server tests, including validation, attachments, provider failure, request size, origin checks, and rate limiting. Email provider responses are mocked.
+- All 13 unit/server tests, including deployment lockfile completeness, validation, attachments, provider failure, request size, origin checks, and rate limiting. Email provider responses are mocked.
 - All 21 browser tests against `next start`, using installed Chrome. Coverage includes all main routes, unique titles/canonicals, layouts at 360/390/768/1440/1920 pixels, navigation and keyboard focus, board selection/reload/quote prefill, gallery deep links, forms, reduced motion, PCB assembly/reversal/remounting, WebGL fallback, and current first-load artwork. The growing-copy mobile check also covers 320 pixels.
 - Additional production smoke audit: 13 page visits across 11 routes, including reduced motion; 29 internal URLs resolved successfully; unknown route returned 404. No broken rendered images, missing image alt attributes, duplicate IDs, or uncaught browser errors were found. These are basic accessibility checks, not a complete WCAG audit.
 - Security headers verified on rendered pages: `X-Content-Type-Options`, `X-Frame-Options`, `Referrer-Policy`, and `Permissions-Policy`.
@@ -17,10 +17,12 @@ Preview deployment is ready. Public launch needs production email configuration 
 
 - Added Next.js 16's documented `data-scroll-behavior="smooth"` opt-in so route transitions can scroll instantly while in-page links retain smooth scrolling.
 - Bounded the Node engine to `>=22.18.0 <23`, preserving the minimum while preventing Vercel from following the open-ended range into a future major runtime/npm combination.
+- Recovered 71 incomplete optional-package lock records from cached registry manifests, including original checksums, platform restrictions, and dependencies. Added nine missing transitive records needed by the recovered packages. Existing application dependency versions were retained. Added a regression test for complete records and required Linux x64 build packages.
+- Configured Vercel's install command as `npm ci` so deployments use the repaired lockfile directly.
 - Corrected the local board-selection regression to exclude Next.js link prefetch requests. The production trace confirmed both unexpected requests were prefetches, not selection navigations.
 - Made the first-load poster test block a PCB texture as well as the development scene chunk, so it also exercises fallback behavior with production chunk names.
 
-The final production build and complete browser suite passed after the app changes. The bounded Node engine also passed offline lockfile resolution, lint, and production build. The reported blank `Invalid Version:` error did not reproduce locally, so the runtime range removes an instability but cannot be confirmed as its sole cause. Earlier lag measurements and visual review are recorded in `../.taste-skill/reference/performance-review.md`.
+The final production build and complete browser suite passed after the app changes. After the deployment lockfile repair, build, TypeScript, lint, and all 13 unit/server tests passed. A clean-directory `npm ci --dry-run --ignore-scripts --offline --os=linux --cpu=x64` passed, validating dependency resolution for Vercel's platform. A full fresh package download was blocked by this workspace's network restrictions; the Linux installation plan was validated, not an actual Linux build. Earlier checks only validated existing version strings and missed 71 records with no version at all; the Node range change alone did not fix the deployment failure. Earlier lag measurements and visual review are recorded in `../.taste-skill/reference/performance-review.md`.
 
 ## Before public launch
 
